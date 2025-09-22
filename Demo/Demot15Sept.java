@@ -6,34 +6,70 @@ import java.util.Scanner;
 public class Demot15Sept {
     public static void main(String[] args) {
 
-        Scanner console = new Scanner(System.in);
+        int choixUtilisateur = 3;
 
+        switch (choixUtilisateur){
+            case 1: 
+                System.out.println("Lundi!");
+                break;
+            case 2: 
+                System.out.println("Mardi!");
+                break;
+            case 3: 
+                System.out.println("Mercredi!");
+                break;
+            case 4: 
+                System.out.println("Jeudi!");
+                break;
+            case 5: 
+                System.out.println("Vendredi!");
+                break;
+            case 6: 
+                System.out.println("Week-end!");
+                break;
+            case 7: 
+                System.out.println("Week-end!");
 
-        int age = 10;
-        String nom = "david";
-
-
-        boolean a = (age >= 10) || (age >= 30) || (age >= 10);
-
-        if(age >= 10){
-            System.out.println("ceci est vrai que son age est >= 10 ");
-            if(nom.equals("david")){
-                System.out.println("il se nomme david");
-            }else{
-                System.out.println("Il ne se nomme pas David");
-            }
-        }else{
-            System.out.println("ceci est faux!");
+            default: 
+                System.out.println("Toute valeur possible!");
+            
         }
-  
-
-        String categorie = "natation";
-
-        final String LIGNE1 = "Nom";
 
 
-        System.out.printf("%-10s:%n","Nom");
-        System.out.printf("%-10s:","Age");
+
+        char lettre = 'a';
+
+        switch(lettre){
+            case 'a':
+                System.out.println("A!!");
+                break;
+            case 'b':
+                System.out.println("A!!");
+                break;
+
+        }
+
+
+
+
+
+
+        String mot = "David";
+
+        
+
+
+
+        switch(mot){
+            case "David":
+                System.out.println("Wow!");
+                break;
+            case "Shany":
+                System.out.println("Beurk!");
+                break;
+        }
+
+
 
 
     }
